@@ -6,4 +6,10 @@ The primary goal of this project is to create a real-time face mask detection sy
 
 ## Proposed System
 
+![Covid flowchart](https://github.com/user-attachments/assets/1cbca037-859d-4493-813f-5fde971519d9)
+
+We used the pre-trained Deep learning model - MobileNetV2 and trained it on the dataset of people with and without masks. Then used OpenCV and gTTs respectively to feed live stream video to detect the ROI and give voice alerts. 
+
+Once the system was running fine, we configured a camera using raspberry pi camera module, to set up a camera that can take live video stream and provide voice alerts and Light signals(Green - good to go, Red - Not wearing mask or  incorrectly worn)
+
 
